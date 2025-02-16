@@ -1,35 +1,24 @@
 .navbar__container {
-  /* position: fixed; */
-  /* position: absolute; */
   display: flex;
-  /* align-items: stretch; */
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px;
   position: relative;
   width: 100%;
-  /* background:var(--color-ui-1); */
+  background: var(--color-ui-1);
 }
 
 .navbar__container.visible {
-  background:var(--color-ui-1); 
+  background: var(--color-ui-1);
   position: sticky;
 }
-
-/* .navbar__container:not(.visible) {
-  background-color: var(--color-ui-2);
-  position: fixed;
-} */
-
-
 
 .navbar__container .logo__container {
   display: flex;
   align-items: flex-end;
-  /* gap: 15px; */
+  gap: 15px;
   cursor: pointer;
   padding-left: 1rem;
-  /* font-size: 20px; */
 }
 
 .logo__container .logo {
@@ -38,16 +27,13 @@
   width: 100%;
   object-fit: contain;
   /* filter: brightness(0) saturate(100%) invert(26%) sepia(94%) saturate(1186%) hue-rotate(186deg) brightness(91%) contrast(97%); */
-
 }
-
 
 .navbar__container .tab__group {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  /* display: none; */
 }
 
 .navbar__container .tab__item {
@@ -90,7 +76,7 @@
   display: none;
 }
 
-.navbar__container .close__btn{
+.navbar__container .close__btn {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -99,21 +85,21 @@
   display: none;
 }
 
-.navbar__container .overlay{
-  background: rgba(1,1,1,0.5);
+.navbar__container .overlay {
+  background: rgba(1, 1, 1, 0.5);
   position: fixed;
- top: 0;
- left: 0;
- height: 100%;
- min-height: 100vh;
- z-index: 199;
- user-select: none;
- cursor: pointer;
+  top: 0;
+  left: 0;
+  height: 100%;
+  min-height: 100vh;
+  z-index: 199;
+  user-select: none;
+  cursor: pointer;
 }
 
 @media (max-width: 900px) {
   .navbar__container {
-    /* background: var(--color-ui-2); */
+    background: var(--color-ui-2);
   }
   .navbar__container .tab__group {
     position: fixed;
@@ -138,9 +124,7 @@
   .navbar__container .menu {
     display: block;
   }
-  .navbar__container .close__btn{
+  .navbar__container .close__btn {
     display: flex;
   }
 }
-
-
