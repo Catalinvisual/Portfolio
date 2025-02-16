@@ -98,9 +98,6 @@
 }
 
 @media (max-width: 900px) {
-  .navbar__container {
-    background: var(--color-ui-2);
-  }
   .navbar__container .tab__group {
     position: fixed;
     width: 300px;

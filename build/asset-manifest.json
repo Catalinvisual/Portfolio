@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.361a481d.css",
+    "main.js": "/static/js/main.419901ad.js",
+    "static/media/Travel-Page.png": "/static/media/Travel-Page.6d70790b90d24651d88a.png",
+    "static/media/profile2.png": "/static/media/profile2.bec66bda9a6a1c8e81d0.png",
+    "static/media/Cosmetics.jpg": "/static/media/Cosmetics.ff116bf8bd366f24381a.jpg",
+    "static/media/profile1.png": "/static/media/profile1.eeffc1d6b4d72ee99a35.png",
+    "static/media/Food.png": "/static/media/Food.89f3dd089efc30f926d5.png",
+    "static/media/Store.jpg": "/static/media/Store.09640a7c66b09d7d81ae.jpg",
+    "static/media/Discover.png": "/static/media/Discover.bcb34773f71771aab6de.png",
+    "static/media/Daily.png": "/static/media/Daily.18a12331e5ae2ce28c0b.png",
+    "static/media/logo2.png": "/static/media/logo2.13a2d4b91b82d0bad427.png",
+    "index.html": "/index.html",
+    "main.361a481d.css.map": "/static/css/main.361a481d.css.map",
+    "main.419901ad.js.map": "/static/js/main.419901ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.361a481d.css",
+    "static/js/main.419901ad.js"
+  ]
+}
